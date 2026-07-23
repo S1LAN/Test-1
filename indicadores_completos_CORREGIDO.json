@@ -1,0 +1,782 @@
+[
+  {
+    "id": "JTP1-001",
+    "nombre": "Porcentaje de delitos ocurridos y no denunciados, cifra negra u oculta",
+    "concepto": "Delitos que no se denuncian ni llegan a la autoridad",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Anual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "91.60%",
+      "2025": "91.70%",
+      "2026_preliminar": "91.7"
+    },
+    "meta_2026_oficial_MIDE": "90.3",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "88.0%"
+    },
+    "semaforo": "SIN MEJORA",
+    "corte_informacion": "09/12/2025",
+    "metodologia": "Refiere el Porcentaje de delitos cometidos en los cuales no hubo denuncia o no se inició una carpeta de investigación.",
+    "formula": "Cifra negra= (DND/TD)*100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-001)"
+  },
+  {
+    "id": "JTP1-002",
+    "nombre": "Porcentaje de la población de 18 y más que considera que vivir en su entorno más cercano es inseguro",
+    "concepto": "Personas que consideran insegura su zona más próxima",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Secretaría de Seguridad",
+    "frecuencia": "Anual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "37.70%",
+      "2025": "37.20%",
+      "2026_preliminar": "37.2"
+    },
+    "meta_2026_oficial_MIDE": "36.1",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "35.0%"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "09/12/2025",
+    "metodologia": "Relación porcentual de la población de 18 y más que considera que vivir en su entorno más cercano es inseguro.",
+    "formula": "%P18+VECINS =(P18+VECINS/TP18+) × 100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-002)"
+  },
+  {
+    "id": "JTP1-003",
+    "nombre": "Porcentaje de percepción de confianza sobre el Ministerio Público y Fiscalías Estatales",
+    "concepto": "Nivel de confianza ciudadana en procuración de justicia",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Anual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "61.80%",
+      "2025": "59.90%",
+      "2026_preliminar": "59.9"
+    },
+    "meta_2026_oficial_MIDE": "62.1",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "64.0%"
+    },
+    "semaforo": "DISMINUYE",
+    "corte_informacion": "09/12/2025",
+    "metodologia": "Relación porcentual de la población de 18 y más que tiene confianza en el Ministerio Público o la Fiscalía Estatal",
+    "formula": "PCMP=(POBCON/POBTOT)*100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-003)"
+  },
+  {
+    "id": "JTP1-004",
+    "nombre": "Porcentaje de percepción de inseguridad",
+    "concepto": "Población que se siente segura en su entorno",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Secretaría de Seguridad",
+    "frecuencia": "Anual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "74.60%",
+      "2025": "77.40%",
+      "2026_preliminar": "77.4"
+    },
+    "meta_2026_oficial_MIDE": "74.7",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "72.0%"
+    },
+    "semaforo": "AUMENTA",
+    "corte_informacion": "09/12/2025",
+    "metodologia": "La encuesta se llevó a cabo con la finalidad de obtener información que permita estimar los niveles de victimización a nivel nacional y por entidad federativa, así como los hechos delictivos denunciados y no denunciados. De igual forma, se estudia la percepción que los habitantes tienen respecto al lugar donde viven, y su evaluación de las principales autoridades en materia de seguridad pública y procuración de justicia. Con el propósito de enmarcar las principales características metodológicas del proyecto, se realiza el Diseño Muestral de la Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE) 2018, el cual aborda las principales características del diseño estadístico empleado para el desarrollo de la encuesta, como son el marco de muestreo, el tamaño y la distribución de la muestra, así como el cálculo de las probabilidades de inclusión de las unidades de observación, los factores de expansión y los principales estimadores para la explotación de información. Consultar liga.",
+    "formula": "(Imj) = (_^m(im) _ij )/(_(=1)^j(ij) ) X 100 con mn",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-004)"
+  },
+  {
+    "id": "JTP1-005",
+    "nombre": "Porcentaje de población de 18 años y más que percibe a la policía estatal con un desempeño positivo",
+    "concepto": "Opinión favorable sobre la actuación policial estatal",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Secretaría de Seguridad",
+    "frecuencia": "Anual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "64.20%",
+      "2025": "58.30%",
+      "2026_preliminar": "58.3"
+    },
+    "meta_2026_oficial_MIDE": "61.85",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "65.4%"
+    },
+    "semaforo": "DISMINUYE",
+    "corte_informacion": "09/12/2025",
+    "metodologia": "El indicador se construye a partir de los datos de la Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE) en el apartado de percepción del desempeño de las autoridades de seguridad pública. Para este indicador, se considera únicamente la policía estatal y se suman las respuestas de la población de 18 años y más que la califica como “muy efectiva” o “algo efectiva”. Estas respuestas se dividen entre el total de personas encuestadas que emitieron una opinión válida sobre el desempeño de la policía estatal. El resultado se expresa como un porcentaje.",
+    "formula": "Indicador (%)=(Número de personas que califican como \"muy efectiva\" o \"algo efectiva\") _______________________________ ( Total de personas que opinaron sobre la policía estatal ) x100 Fórmula: %PPP18+ = (PPP18+ / TPP18+) × 100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-005)"
+  },
+  {
+    "id": "JTP1-006",
+    "nombre": "Porcentaje de población privada de su libertad que desempeña una actividad laboral en el centro penitenciario",
+    "concepto": "Personas privadas de la libertad que trabajan",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Secretaría de Seguridad",
+    "frecuencia": "Mensual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "86.17%",
+      "2025": "78.60%",
+      "2026_preliminar": "78.35"
+    },
+    "meta_2026_oficial_MIDE": "80",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "88.00%"
+    },
+    "semaforo": "DISMINUYE",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "La proporción se obtiene de la división de los Internos laboralmente activos entre el total de los internos y se multiplica por cien. Variable utilizada: IR=Total internos recluidos, ILA= Internos laboralmente activos",
+    "formula": "%ILA= (ILA/IR)*100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-006)"
+  },
+  {
+    "id": "JTP1-007",
+    "nombre": "Tasa de incidencia de desaparición de personas por cada cien mil habitantes",
+    "concepto": "Registros de desaparición por cada 100 mil habitantes",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Comisión de Búsqueda de Personas del Estado de Jalisco",
+    "frecuencia": "Mensual",
+    "unidad": "Tasa",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "35.39",
+      "2025": "29.57",
+      "2026_preliminar": "14.02"
+    },
+    "meta_2026_oficial_MIDE": "28.23",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "33.31"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Se divide el número total de personas desaparecidas cuya desaparición y reporte ocurrieron entre el 1 de enero del año de referencia y el último día del mes que se reporta, entre la población total del estado en ese mismo periodo, y el resultado se multiplica por 100,000 para expresarlo como tasa por cada 100 mil habitantes.",
+    "formula": "TIDP=PD/POB*100000",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-007)"
+  },
+  {
+    "id": "JTP1-008",
+    "nombre": "Tasa de delitos del fuero común por cada cien mil habitantes",
+    "concepto": "Delitos registrados por cada 100 mil habitantes",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Mensual",
+    "unidad": "Tasa",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "1,406.80",
+      "2025": "1,285.22",
+      "2026_preliminar": "630.95"
+    },
+    "meta_2026_oficial_MIDE": "1,261.19",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "1,257.80"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Se hace la sumatoria de las averiguaciones previas iniciadas o carpetas de investigación de los delitos del fuero común de los 125 municipios del estado, entre la población total, multiplicado por 100 mil habitantes.",
+    "formula": "TDFC=(_(j=1)^125 APIj + CIj)/PT * 100,000",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-008)"
+  },
+  {
+    "id": "JTP1-009",
+    "nombre": "Tasa de prevalencia delictiva por cada cien mil habitantes",
+    "concepto": "Personas víctimas de delito por cada 100 mil habitantes",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Anual",
+    "unidad": "Tasa",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "24,793",
+      "2025": "24,179",
+      "2026_preliminar": "24,179"
+    },
+    "meta_2026_oficial_MIDE": "23,695",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "22,000"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "09/12/2025",
+    "metodologia": "La tasa se calcula dividiendo el total de víctimas en la entidad federativa, entre la población de 18 años y más residente en ella por 100 000 habitantes.",
+    "formula": "TPD= [(VEJ/P18M)*100,000]",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-009)"
+  },
+  {
+    "id": "JTP1-010",
+    "nombre": "Tasa de víctimas de homicidio doloso por cada cien mil habitantes",
+    "concepto": "Víctimas por cada 100 mil habitantes",
+    "nivel": 1,
+    "categoria": "Indicador Estratégico",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Mensual",
+    "unidad": "Tasa",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "20.41",
+      "2025": "13.44",
+      "2026_preliminar": "4.59"
+    },
+    "meta_2026_oficial_MIDE": "12.42",
+    "meta_plan_estatal": {
+      "anio": 2027,
+      "valor": "15.39"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Para el cálculo del indicador, se consideran las víctimas registradas por homicidio doloso basados en la clasificación de delitos establecida en la \"Norma Técnica de Clasificación de delitos con fines estadísticos\", elaborada por el INEGI.",
+    "formula": "TASA VICHOM=(VICHOM/POBTOT)*100000",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP1-010)"
+  },
+  {
+    "id": "JTP2-001",
+    "nombre": "Convenios de prevención social con municipios",
+    "concepto": "Convenios de prevención social municipio/Centro de Prevención Social",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Consejo Estatal de Seguridad Pública",
+    "frecuencia": "Trimestral",
+    "unidad": "Convenios",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "N/D",
+      "2025": "80",
+      "2026_preliminar": "88"
+    },
+    "meta_2026_oficial_MIDE": "95",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "95"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Sumatoria de Convenios de prevención social con municipios",
+    "formula": "CPS=_(j=1)^125 CFM",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-001)"
+  },
+  {
+    "id": "JTP2-002",
+    "nombre": "Municipios con diagnósticos de factores de riesgo",
+    "concepto": "Diagnósticos locales de violencia y delincuencia por municipio",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Consejo Estatal de Seguridad Pública",
+    "frecuencia": "Trimestral",
+    "unidad": "Municipios",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "N/D",
+      "2025": "80",
+      "2026_preliminar": "88"
+    },
+    "meta_2026_oficial_MIDE": "95",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "95"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Sumatoria de Municipios con diagnósticos de factores de riesgo",
+    "formula": "DMFR =_(j=1)^125 DEM",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-002)"
+  },
+  {
+    "id": "JTP2-003",
+    "nombre": "Municipios con programa de prevención social de las violencias",
+    "concepto": "Municipios con Programa Municipal de Prevención Social",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Consejo Estatal de Seguridad Pública",
+    "frecuencia": "Trimestral",
+    "unidad": "Municipios",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "N/D",
+      "2025": "80",
+      "2026_preliminar": "88"
+    },
+    "meta_2026_oficial_MIDE": "95",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "95"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Sumatoria de Municipios con programa de prevención social de las violencias.",
+    "formula": "DMFR =_(j=1)^125 DEM",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-003)"
+  },
+  {
+    "id": "JTP2-004",
+    "nombre": "Porcentaje de internos que se encuentran escolarmente activos en los reclusorios",
+    "concepto": "Proporción de internos escolarmente activos",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Secretaría de Seguridad",
+    "frecuencia": "Mensual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "57.66",
+      "2025": "55.18",
+      "2026_preliminar": "57.21"
+    },
+    "meta_2026_oficial_MIDE": "59.28",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "59.28"
+    },
+    "semaforo": "DISMINUYE",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "La proporción se obtiene de la división de los Internos escolarmente activos entre el total de los internos y se multiplica por cien.",
+    "formula": "%IEA= (IEA/TIR) * 100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-004)"
+  },
+  {
+    "id": "JTP2-005",
+    "nombre": "Ingreso promedio salarial a policías estatales (escala básica)",
+    "concepto": "Ingreso promedio salarial a policías estatales",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Secretaría de Seguridad",
+    "frecuencia": "Anual",
+    "unidad": "Pesos",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "13,663",
+      "2025": "13,663",
+      "2026_preliminar": "13,663"
+    },
+    "meta_2026_oficial_MIDE": "14,871",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "14,871"
+    },
+    "semaforo": "SE MANTIENE",
+    "corte_informacion": "31/12/2025",
+    "metodologia": "Se obtiene dividiendo el total de percepciones mensuales pagadas al personal policial de escala básica entre el número total de policías activos en esa categoría. La información proviene de registros administrativos de la Secretaría de Seguridad Jalisco.",
+    "formula": "Ingreso Promedio Salarial= TS/NP",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-005)"
+  },
+  {
+    "id": "JTP2-006",
+    "nombre": "Porcentaje de ocupación penitenciaria en reinserción social",
+    "concepto": "Proporción de PPL con ocupación respecto a espacios totales",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Secretaría de Seguridad",
+    "frecuencia": "Mensual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "96.1",
+      "2025": "101.76",
+      "2026_preliminar": "105.86"
+    },
+    "meta_2026_oficial_MIDE": "97.88",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "97.88"
+    },
+    "semaforo": "AUMENTA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "La proporción se obtiene de la división del número de personas privadas de la libertad con ocupación entre el número de espacios y el resultado se multiplica por cien",
+    "formula": "%OP= (PPL/TS)*100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-006)"
+  },
+  {
+    "id": "JTP2-007",
+    "nombre": "Porcentaje de policías con grado de licenciatura, maestría o doctorado",
+    "concepto": "Policías estatales con estudios de nivel superior",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Secretaría de Seguridad",
+    "frecuencia": "Anual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "9.76",
+      "2025": "14.92",
+      "2026_preliminar": "14.92"
+    },
+    "meta_2026_oficial_MIDE": "16.35",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "16.35"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "31/12/2025",
+    "metodologia": "Relación porcentual de los policías estatales que cuentan con estudios de nivel superior (licenciatura, maestría o doctorado) respecto al total de policías estatales por 100.",
+    "formula": "%PENS=(PENS/TPE)*100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-007)"
+  },
+  {
+    "id": "JTP2-008",
+    "nombre": "Número de Mandamientos cumplimentados",
+    "concepto": "Órdenes de aprehensión, citación o comparecencia cumplimentadas",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Mensual",
+    "unidad": "Mandamientos",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "4,002",
+      "2025": "5,331",
+      "2026_preliminar": "2,968"
+    },
+    "meta_2026_oficial_MIDE": "5,851",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "5,851"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Sumatoria de mandamientos cumplimentados",
+    "formula": "TMC= MC",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-008)"
+  },
+  {
+    "id": "JTP2-009",
+    "nombre": "Personas Judicializadas",
+    "concepto": "Asuntos llevados ante el juez para su resolución",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Mensual",
+    "unidad": "Personas",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "25,653",
+      "2025": "25,709",
+      "2026_preliminar": "13,687"
+    },
+    "meta_2026_oficial_MIDE": "26,900",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "26,900"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Sumatoria de personas Judicializadas",
+    "formula": "TPJ= _PJ",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-009)"
+  },
+  {
+    "id": "JTP2-010",
+    "nombre": "Personas Vinculadas",
+    "concepto": "Personas consideradas probables responsables por el juez",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Mensual",
+    "unidad": "Personas",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "7,627",
+      "2025": "9,289",
+      "2026_preliminar": "4,815"
+    },
+    "meta_2026_oficial_MIDE": "9,465",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "9,465"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Sumatoria de vinculaciones por persona",
+    "formula": "TPV= PV",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-010)"
+  },
+  {
+    "id": "JTP2-011",
+    "nombre": "Diagnósticos municipales de riesgos actualizados",
+    "concepto": "Diagnósticos técnicos de riesgo por municipio",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Unidad Estatal de Protección Civil y Bomberos",
+    "frecuencia": "Mensual",
+    "unidad": "Diagnósticos",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "25",
+      "2025": "123",
+      "2026_preliminar": "123"
+    },
+    "meta_2026_oficial_MIDE": "123",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "123"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Es una sumatoria de los diagnósticos municipales actualizados.",
+    "formula": "TDMA=_(n=1)^125( DMA)",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-011)"
+  },
+  {
+    "id": "JTP2-012",
+    "nombre": "Personas capacitadas en materia de protección civil",
+    "concepto": "Personas capacitadas en autoprotección y protección civil",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Unidad Estatal de Protección Civil y Bomberos",
+    "frecuencia": "Mensual",
+    "unidad": "Personas",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "156,000",
+      "2025": "235,960",
+      "2026_preliminar": "50,837"
+    },
+    "meta_2026_oficial_MIDE": "239,000",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "239,000"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Ejecutada la actividad, la coordinación del área realiza informe de novedades, integrándose en la tabla de acciones lo correspondiente, alimentándose del avance del Programa Operativo Anual 2014.",
+    "formula": "PCMPC=_(j=1)^125PCj",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-012)"
+  },
+  {
+    "id": "JTP2-013",
+    "nombre": "Personas fallecidas sin identificar que ingresan al IJCF y fueron restituidas",
+    "concepto": "Personas fallecidas sin identificar que ingresan al IJCF y fueron restituidas",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Instituto Jalisciense de Ciencias Forenses",
+    "frecuencia": "Mensual",
+    "unidad": "Personas",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "1,209",
+      "2025": "1,327",
+      "2026_preliminar": "641"
+    },
+    "meta_2026_oficial_MIDE": "1,328",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "1,328"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "31/05/2026",
+    "metodologia": "Sumatoria de personas fallecidas sin identificar que ingresan al IJCF y fueron restituidas.",
+    "formula": "TPFSIR=_PFSIR",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-013)"
+  },
+  {
+    "id": "JTP2-014",
+    "nombre": "Porcentaje de interoperabilidad institucional alcanzado con respecto al total de dependencias vinculadas al sistema estatal de seguridad",
+    "concepto": "Interoperabilidad de 5 dependencias esenciales con la SIBP",
+    "nivel": 2,
+    "categoria": "Sectorial",
+    "reportado_por": "Secretaría de Inteligencia y Búsqueda de Personas",
+    "frecuencia": "Anual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "10.00",
+      "2025": "40.00",
+      "2026_preliminar": "10"
+    },
+    "meta_2026_oficial_MIDE": "40",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "90.00"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "02/12/2025",
+    "metodologia": "Se contabiliza cuántas de las cinco dependencias previstas tienen interoperabilidad institucional efectiva con la SIBP al cierre del periodo. Ese número se divide entre 5 y el resultado se multiplica por 100 para obtener el porcentaje de avance del indicador.",
+    "formula": "%II=(DepI/5)*100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha JTP2-014)"
+  },
+  {
+    "id": "TES1-001",
+    "nombre": "Porcentaje de percepción sobre inseguridad en mujeres mayores de 18 años",
+    "concepto": "Percepción de inseguridad en mujeres mayores de 18 años",
+    "nivel": 1,
+    "categoria": "Temática Especial - Mujeres Libres de Violencia",
+    "reportado_por": "Secretaría de Igualdad Sustantiva entre Mujeres y Hombres",
+    "frecuencia": "Anual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "78.1",
+      "2025": "82.5",
+      "2026_preliminar": "82.5"
+    },
+    "meta_2026_oficial_MIDE": "79.75",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "79.75"
+    },
+    "semaforo": "AUMENTA",
+    "corte_informacion": "09/12/2025",
+    "metodologia": "Para el cálculo de este indicador se contabiliza el total de mujeres de 18 y más años que se sienten o se perciben inseguras entre la población de mujeres de 18 y más años jaliscienses encuestadas por 100.",
+    "formula": "IPINM=(MJPI/ M18ymás) * 100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha TES1-001)"
+  },
+  {
+    "id": "TES1-002",
+    "nombre": "Porcentaje de carpetas de investigación por el delito de abuso sexual infantil con víctima mujer, que han sido judicializadas",
+    "concepto": "Carpetas de abuso sexual infantil judicializadas",
+    "nivel": 1,
+    "categoria": "Temática Especial - Mujeres Libres de Violencia",
+    "reportado_por": "Secretaría de Igualdad Sustantiva entre Mujeres y Hombres",
+    "frecuencia": "Semestral",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "17.27",
+      "2025": "17.2",
+      "2026_preliminar": "21.1"
+    },
+    "meta_2026_oficial_MIDE": "18.6",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "18.6"
+    },
+    "semaforo": "SE MANTIENE",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Para el cálculo de este indicador se contabiliza el número de carpetas de investigación de abuso sexual infantil con víctima mujer judicializadas entre el producto del total de carpetas de investigación de abuso sexual infantil con víctima mujer, multiplicado por 100.",
+    "formula": "PCIASIMJ= CIASIMJ/CIASIM * 100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha TES1-002)"
+  },
+  {
+    "id": "TES1-003",
+    "nombre": "Porcentaje de carpetas de investigación por el delito de violación con víctima mujer, que han sido judicializadas",
+    "concepto": "Carpetas de violación judicializadas",
+    "nivel": 1,
+    "categoria": "Temática Especial - Mujeres Libres de Violencia",
+    "reportado_por": "Secretaría de Igualdad Sustantiva entre Mujeres y Hombres",
+    "frecuencia": "Semestral",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "12.24",
+      "2025": "18.1",
+      "2026_preliminar": "18.5"
+    },
+    "meta_2026_oficial_MIDE": "19.05",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "19.05"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Para el cálculo de este indicador se contabiliza el número de carpetas de investigación del delito de violación de víctima mujer judicializadas entre el total de carpetas de investigación iniciadas por el delito de violación de víctima mujer, multiplicado por 100.",
+    "formula": "PCIVMJ= CIVMJ/CIVM * 100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha TES1-003)"
+  },
+  {
+    "id": "TES1-004",
+    "nombre": "Tasa de víctimas del delito de feminicidios por cada cien mil mujeres",
+    "concepto": "Mujeres víctimas de feminicidio por cada 100 mil mujeres",
+    "nivel": 1,
+    "categoria": "Temática Especial - Mujeres Libres de Violencia",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Mensual",
+    "unidad": "Tasa",
+    "tendencia_deseable": "Descendente",
+    "valores_historicos": {
+      "2024": "0.806",
+      "2025": "0.82",
+      "2026_preliminar": "0.26"
+    },
+    "meta_2026_oficial_MIDE": "0.75",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "0.749"
+    },
+    "semaforo": "AUMENTA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Se refiere al número de feminicidios registrados por entidad federativa dividido por la población de mujeres",
+    "formula": "(VFEM/POBMUJ)*100000",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha TES1-004)"
+  },
+  {
+    "id": "TES1-005",
+    "nombre": "Personas judicializadas por delitos relacionados con la desaparición de personas",
+    "concepto": "Total de personas judicializadas por delitos de desaparición",
+    "nivel": 1,
+    "categoria": "Temática Especial - Personas Desaparecidas",
+    "reportado_por": "Fiscalía del Estado",
+    "frecuencia": "Mensual",
+    "unidad": "Personas",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "198",
+      "2025": "116",
+      "2026_preliminar": "57"
+    },
+    "meta_2026_oficial_MIDE": "117",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "117"
+    },
+    "semaforo": "DISMINUYE",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Para el cálculo de este indicador se utiliza la sumatoria del número de personas judicializadas por delitos relacionados con la desaparición de personas en el año que se informa.",
+    "formula": "TPJ= _PJDD",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha TES1-005)"
+  },
+  {
+    "id": "TES1-006",
+    "nombre": "Porcentaje de localización de personas reportadas como desaparecidas en el estado de Jalisco",
+    "concepto": "Proporción de personas desaparecidas localizadas en el periodo",
+    "nivel": 1,
+    "categoria": "Temática Especial - Personas Desaparecidas",
+    "reportado_por": "Comisión de Búsqueda de Personas del Estado de Jalisco",
+    "frecuencia": "Mensual",
+    "unidad": "Porcentaje",
+    "tendencia_deseable": "Ascendente",
+    "valores_historicos": {
+      "2024": "58.55",
+      "2025": "61.98",
+      "2026_preliminar": "59.57"
+    },
+    "meta_2026_oficial_MIDE": "63.83",
+    "meta_plan_estatal": {
+      "anio": 2026,
+      "valor": "63.83"
+    },
+    "semaforo": "MEJORA",
+    "corte_informacion": "30/06/2026",
+    "metodologia": "Se calcula identificando todos los casos de personas cuya desaparición y reporte ocurrieron entre el 1 de enero del año de referencia y el último día del mes reportado y, de esas personas, cuántas fueron localizadas dentro de ese mismo periodo. El valor del índice resulta de dividir el número de personas localizadas en el periodo entre el total de personas desaparecidas y reportadas en ese mismo lapso, multiplicando el resultado por 100 para expresarlo en porcentaje.",
+    "formula": "PLPD=PL/PD*100",
+    "fuente_mide": "https://mide.jalisco.gob.mx (ficha TES1-006)"
+  }
+]
